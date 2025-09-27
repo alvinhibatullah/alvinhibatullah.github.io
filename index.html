@@ -1,1 +1,108 @@
-ALVIN HIBATULLAH
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil Mahasiswa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin: auto;
+    }
+
+    td, th {
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      width: 30px;
+      text-align: center;
+    }
+
+    /* Foto profil bulat */
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid black;
+      margin: 15px;
+    }
+
+    /* Icon sosmed bulat */
+    .social-icons {
+      margin-top: 15px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      border-radius: 50%;
+      border: 1px solid black;
+      text-align: center;
+      line-height: 50px;
+      text-decoration: none;
+      font-size: 14px;
+      color: black;
+      background-color: #f2f2f2;
+    }
+
+    .social-icons a:hover {
+      background-color: lightgray;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Profil Mahasiswa</h2>
+
+  <!-- Foto masing-masing -->
+  <img src="foto.jpg" alt="Foto Profil" class="profile-pic">
+
+  <!-- Tabel Identitas -->
+  <table style="width:60%">
+    <tr>
+      <td>Nama</td>
+      <th>:</th>
+      <td>Tabitha Glorya Yobelitha Sirait</td>
+    </tr>
+    <tr>
+      <td>NIM</td>
+      <th>:</th>
+      <td><b>102022400238</b></td>
+    </tr>
+    <tr>
+      <td>Fakultas</td>
+      <th>:</th>
+      <td><i>Rekayasa Industri</i></td>
+    </tr>
+    <tr>
+      <td>Program Studi</td>
+      <th>:</th>
+      <td><u>S1 Sistem Informasi</u></td>
+    </tr>
+    <tr>
+      <td>Angkatan</td>
+      <th>:</th>
+      <td>2024</td>
+    </tr>
+  </table>
+
+  <!-- Ikon Sosial Media -->
+  <div class="social-icons">
+    <a href="https://twitter.com" target="_blank">X</a>
+    <a href="https://github.com" target="_blank">GH</a>
+    <a href="https://instagram.com" target="_blank">IG</a>
+    <a href="https://telkomuniversity.ac.id" target="_blank">Web</a>
+  </div>
+
+</body>
+</html>
